@@ -171,7 +171,10 @@ body{
 
 	.content-1 h1{
 		font-size: 30px;
-		margin-bottom: 3rem;
+	}
+
+	.content-2{
+		margin: 1.5rem 0 0 0;
 	}
 
 	.card-1, .card-2, .card-3{
@@ -208,6 +211,10 @@ body{
 }
 
 @media only screen and (max-width: 375px){
+	body{
+		background-image: url('../../images/bg-pattern-top-mobile.svg'), url('../../images/bg-pattern-bottom-mobile.svg');
+	}
+
 	.card-4, .card-5, .card-6{
 		max-height: 10rem;
 		min-height: 10rem;
