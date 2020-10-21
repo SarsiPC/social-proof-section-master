@@ -5,12 +5,20 @@ body{
 	align-items: center;
 	font-family: 'Spartan', sans-serif;
 	font-size: 15px;
-	background-image: url('../../images/bg-pattern-top-desktop.svg'), url('../../images/bg-pattern-bottom-desktop.svg');
-	background-repeat: no-repeat;
 }
 
 .main-container{
 	max-width: 1440px;
+}
+
+.background-img-1{
+	background-image: url('../../images/bg-pattern-top-desktop.svg');
+	background-repeat: no-repeat;
+}
+
+.background-img-1{
+	background-image: url('../../images/bg-pattern-bottom-desktop.svg');
+	background-repeat: no-repeat;
 }
 
 .container{
