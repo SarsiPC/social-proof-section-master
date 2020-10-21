@@ -5,9 +5,6 @@ body{
 	align-items: center;
 	font-family: 'Spartan', sans-serif;
 	font-size: 15px;
-}
-
-.background-img{
 	background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
     background-position: left top, right bottom;
     background-repeat: no-repeat, no-repeat;
@@ -214,10 +211,6 @@ body{
 }
 
 @media only screen and (max-width: 375px){
-	.background-img{
-		background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
-	}
-
 	.main-container{
 		max-width: 375px;
 	}
